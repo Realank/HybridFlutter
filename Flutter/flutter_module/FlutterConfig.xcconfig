@@ -1,0 +1,9 @@
+//
+//  FlutterConfig.xcconfig
+//  HybridIOS
+//
+//  Created by Realank on 2018/8/20.
+//  Copyright © 2018年 Realank. All rights reserved.
+//
+
+#include "./.ios/Flutter/Generated.xcconfig"

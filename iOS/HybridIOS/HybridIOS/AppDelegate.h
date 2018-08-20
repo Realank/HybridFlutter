@@ -5,13 +5,7 @@
 //  Created by Realank on 2018/8/20.
 //  Copyright © 2018年 Realank. All rights reserved.
 //
+#import <Flutter/Flutter.h>
 
-#import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface AppDelegate : FlutterAppDelegate <UIApplicationDelegate, FlutterAppLifeCycleProvider>
 @end
-

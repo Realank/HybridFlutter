@@ -13,7 +13,27 @@
 		8C5C84F6212A59EF0057C98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5C84F5212A59EF0057C98E /* Assets.xcassets */; };
 		8C5C84F9212A59EF0057C98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5C84F7212A59EF0057C98E /* LaunchScreen.storyboard */; };
 		8C5C84FC212A59EF0057C98E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C84FB212A59EF0057C98E /* main.m */; };
+		8C5C854F212A6AEC0057C98E /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5C8541212A6AEC0057C98E /* App.framework */; };
+		8C5C8558212A6AEC0057C98E /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5C854D212A6AEC0057C98E /* Flutter.framework */; };
+		8C5C856D212A6B290057C98E /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5C856C212A6B290057C98E /* flutter_assets */; };
+		8C5C856F212A6B6E0057C98E /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5C8541212A6AEC0057C98E /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8C5C8572212A6B710057C98E /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5C854D212A6AEC0057C98E /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C5C8570212A6B6E0057C98E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8C5C856F212A6B6E0057C98E /* App.framework in Embed Frameworks */,
+				8C5C8572212A6B710057C98E /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C5C84E9212A59EE0057C98E /* HybridIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +46,19 @@
 		8C5C84F8212A59EF0057C98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5C84FA212A59EF0057C98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5C84FB212A59EF0057C98E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C5C8507212A66380057C98E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		8C5C8541212A6AEC0057C98E /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		8C5C854D212A6AEC0057C98E /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		8C5C854E212A6AEC0057C98E /* Flutter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; };
+		8C5C855B212A6B070057C98E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8C5C855C212A6B070057C98E /* vm_snapshot_data */ = {isa = PBXFileReference; lastKnownFileType = file; path = vm_snapshot_data; sourceTree = "<group>"; };
+		8C5C855D212A6B070057C98E /* isolate_snapshot_data */ = {isa = PBXFileReference; lastKnownFileType = file; path = isolate_snapshot_data; sourceTree = "<group>"; };
+		8C5C855E212A6B070057C98E /* AssetManifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AssetManifest.json; sourceTree = "<group>"; };
+		8C5C855F212A6B070057C98E /* kernel_blob.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = kernel_blob.bin; sourceTree = "<group>"; };
+		8C5C8560212A6B070057C98E /* FontManifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FontManifest.json; sourceTree = "<group>"; };
+		8C5C8561212A6B070057C98E /* platform_strong.dill */ = {isa = PBXFileReference; lastKnownFileType = file; path = platform_strong.dill; sourceTree = "<group>"; };
+		8C5C8563212A6B070057C98E /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		8C5C856C212A6B290057C98E /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flutter_assets; path = Flutter/flutter_assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5C854F212A6AEC0057C98E /* App.framework in Frameworks */,
+				8C5C8558212A6AEC0057C98E /* Flutter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 		8C5C84E0212A59EE0057C98E = {
 			isa = PBXGroup;
 			children = (
+				8C5C856C212A6B290057C98E /* flutter_assets */,
+				8C5C8540212A6AEC0057C98E /* Flutter */,
 				8C5C84EB212A59EE0057C98E /* HybridIOS */,
 				8C5C84EA212A59EE0057C98E /* Products */,
 			);
@@ -67,8 +104,51 @@
 				8C5C84F7212A59EF0057C98E /* LaunchScreen.storyboard */,
 				8C5C84FA212A59EF0057C98E /* Info.plist */,
 				8C5C84FB212A59EF0057C98E /* main.m */,
+				8C5C8507212A66380057C98E /* Debug.xcconfig */,
 			);
 			path = HybridIOS;
+			sourceTree = "<group>";
+		};
+		8C5C8540212A6AEC0057C98E /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C855A212A6B070057C98E /* flutter_assets */,
+				8C5C8541212A6AEC0057C98E /* App.framework */,
+				8C5C854C212A6AEC0057C98E /* engine */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		8C5C854C212A6AEC0057C98E /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C854D212A6AEC0057C98E /* Flutter.framework */,
+				8C5C854E212A6AEC0057C98E /* Flutter.podspec */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		8C5C855A212A6B070057C98E /* flutter_assets */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C855B212A6B070057C98E /* LICENSE */,
+				8C5C855C212A6B070057C98E /* vm_snapshot_data */,
+				8C5C855D212A6B070057C98E /* isolate_snapshot_data */,
+				8C5C855E212A6B070057C98E /* AssetManifest.json */,
+				8C5C855F212A6B070057C98E /* kernel_blob.bin */,
+				8C5C8560212A6B070057C98E /* FontManifest.json */,
+				8C5C8561212A6B070057C98E /* platform_strong.dill */,
+				8C5C8562212A6B070057C98E /* fonts */,
+			);
+			path = flutter_assets;
+			sourceTree = "<group>";
+		};
+		8C5C8562212A6B070057C98E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C8563212A6B070057C98E /* MaterialIcons-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C5C84FF212A59EF0057C98E /* Build configuration list for PBXNativeTarget "HybridIOS" */;
 			buildPhases = (
+				8C5C8506212A643C0057C98E /* ShellScript */,
 				8C5C84E5212A59EE0057C98E /* Sources */,
 				8C5C84E6212A59EE0057C98E /* Frameworks */,
 				8C5C84E7212A59EE0057C98E /* Resources */,
+				8C5C8570212A6B6E0057C98E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5C856D212A6B290057C98E /* flutter_assets in Resources */,
 				8C5C84F9212A59EF0057C98E /* LaunchScreen.storyboard in Resources */,
 				8C5C84F6212A59EF0057C98E /* Assets.xcassets in Resources */,
 				8C5C84F4212A59EE0057C98E /* Main.storyboard in Resources */,
@@ -135,6 +218,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C5C8506212A643C0057C98E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C5C84E5212A59EE0057C98E /* Sources */ = {
@@ -171,6 +270,7 @@
 /* Begin XCBuildConfiguration section */
 		8C5C84FD212A59EF0057C98E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5C8507212A66380057C98E /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -286,6 +386,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 275X96KVEB;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Flutter/engine",
+				);
 				INFOPLIST_FILE = HybridIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +409,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 275X96KVEB;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Flutter/engine",
+				);
 				INFOPLIST_FILE = HybridIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
