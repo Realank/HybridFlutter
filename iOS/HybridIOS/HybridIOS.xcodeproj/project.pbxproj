@@ -329,6 +329,7 @@
 		};
 		8C5C84FE212A59EF0057C98E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5C8507212A66380057C98E /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
